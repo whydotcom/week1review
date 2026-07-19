@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(216, 197, 197);
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.destination-card{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(48, 47, 47);
+    height: 80vh;
+    width: 15rem;
+
+
+
+    
+}
+
+.card-info {
+    flex: 1;
+    background-color: #05bcb9;
+    background: linear-gradient(135deg, #05bcb9, #660277); 
+
+    padding: 1rem;
+    border-bottom: dashed 5px rgb(62, 61, 61);
+
+
+}
+
+.card-image{
+    flex: 2;
+
+}
